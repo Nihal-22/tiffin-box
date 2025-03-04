@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+header {
+    background-color: rgb(255, 123, 0);
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.inp {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#in2 {
+    width: 150px;
+}
+
+.head {
+    color: rgb(0, 0, 0);
+    text-shadow: 4px 8px 10px black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic {
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+}
+
+section {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.row1, .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.col1, .col2 {
+    height: 240px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.col1 img, .col2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+.col1 img:hover, .col2 img:hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    margin: 20px 0;
+    background-color: white;
+}
+
+footer {
+    background-color: rgb(215, 109, 9);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer h1 {
+    color: azure;
+    text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer h4 {
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+
+.footer p {
+    color: cornsilk;
+    margin: 2px;
+}
+
+#lastheading {
+    color: rgb(0, 0, 0);
+}
